@@ -1,8 +1,8 @@
 package dao;
 
+import vo.*;
 import java.sql.*;
 import java.util.*;
-import vo.*;
 import util.DBUtil;
 
 public class SubjectDao {

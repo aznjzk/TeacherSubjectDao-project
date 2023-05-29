@@ -107,7 +107,8 @@
 		for(HashMap<String, Object> teacher : teacherList) {
 	%>
 		<tr>
-			<td><%=teacher.get("teacherNo")%></td>
+			<td><a href="<%=request.getContextPath()%>/teacher/teacherOne.jsp?teacherNo=<%=teacher.get("teacherNo")%>">
+				<%=teacher.get("teacherNo")%></a></td>
 			<td><%=teacher.get("teacherId")%></td>
 			<td><%=teacher.get("teacherName")%></td>
 			<td><%=teacher.get("subjectName")%></td>

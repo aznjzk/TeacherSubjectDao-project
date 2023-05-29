@@ -49,7 +49,7 @@
 		%>
 			<tr>
 				<td>
-					<a href="./subjectOne.jsp?subjectNo=<%=subject.getSubjectNo()%>">
+					<a href="<%=request.getContextPath()%>/subject/subjectOne.jsp?subjectNo=<%=subject.getSubjectNo()%>">
 					<%=subject.getSubjectNo()%>
 					</a>
 				</td>
